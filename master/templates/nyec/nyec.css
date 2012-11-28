@@ -1,0 +1,447 @@
+.color_1_text {color:#fff;}
+.color_1_bg {background-color:#fff;}
+.color_1_border {border-color:#fff;}
+
+html body {
+	background-image:url('/templates/nyec/images/background_2.jpg');
+	background-position:top center;
+	background-repeat:repeat-x;
+	background-color:#000;
+	background-attachment:fixed;
+	color:#000;;
+}
+a {
+	color:#333;
+}
+
+h1 {
+	font-size:28px;
+	color:#FFF;
+}
+	#profile-content h1 {
+		color:#000;
+	}
+	
+#h1_blurb, #footer_blurb {
+	margin-bottom:16px;
+	font-size:10px;
+	color:#fff;
+}
+#footer_blurb {
+	margin-top:16px;
+}
+	
+
+	
+#container {
+	width:1000px;
+	margin:0 auto;
+}
+	header {
+		overflow:hidden;
+	    background: url("/templates/nyec/images/sparkles.png") no-repeat scroll 0 0 transparent;
+		padding:0 10px;
+	}
+		#logo {
+			height:155px;
+			width:477px;
+			float:left;
+    		background: url("/templates/nyec/images/nyec-2013.png") no-repeat scroll -7px -5px transparent;
+			margin-top:56px;
+		}
+		#header-box {
+			float:right;
+			width:490px;
+			margin-top:4px;
+		}
+			.header_announce {
+				/*background:url("/templates/nyec/images/small_nav_back_t.png") repeat-x scroll 0 0 transparent;*/
+				background:url("/templates/nyec/images/nav_back_t.png") repeat-x scroll 0 0 transparent;
+				color: #ddd;
+				display: block;
+				float: right;
+				font-size: 11px;
+				height: 25px;
+				margin-top: 13px;
+				padding-right:10px;
+				text-align: right;
+				width: 480px;
+				text-decoration:none;
+				font-size:16px;
+				padding-top:10px;
+				text-align:right;
+				font-weight:bold;
+			}
+				header .countdown {
+					background: url("/templates/nyec/images/counter_back_t.png") repeat-x scroll 0 0 transparent;
+					float: left;
+					height: 72px;
+					margin: 15px 8px 0 0px;
+					padding: 10px;
+				}
+				header .countdown .top {
+					background: none repeat scroll 0 0 #E6D9C5;
+					color: #663366;
+					font-size: 10px;
+					font-weight: bolder;
+					margin: 0;
+					padding: 5px;
+					text-align: center;
+					text-transform: uppercase;
+				}
+				header .countdown .counter {
+					margin: 4px 0;
+					overflow: hidden;
+					padding: 0;
+				}
+				header .countdown .counter span {
+					background: url("/templates/nyec/images/counter_digit_back.png") repeat-x scroll 0 -3px transparent;
+					display: block;
+					float: left;
+					font-size: 18px;
+					font-weight: lighter;
+					margin-right: 1px;
+					padding: 1px 2px;
+					text-align: center;
+					width: 15px;
+					color:#000;
+				}
+				header .countdown .counter span.gap {
+					margin-right: 5px;
+				}
+				header .countdown .legend {
+					background: none repeat scroll 0 0 #A78E6B;
+					color: #FFFFFF;
+					font-size: 10px;
+					margin: 0;
+					overflow: hidden;
+					padding: 3px;
+					text-transform: uppercase;
+				}
+				header .countdown .legend span {
+					display: block;
+					float: left;
+					text-align: center;
+				}
+				.day { width:60px;}
+				.hr  { width:40px;} 
+				.min { width:45px;}
+				.sec { width:37px; }
+				
+			#header-ad {
+				background-color:#000000;
+				float: left;
+				height: 92px;
+				width: 270px;
+				margin-top:15px;
+			}
+				#header-ad iframe {
+					margin:15px 5px;s
+				}
+			ul#mini-nav {
+			    background: url("/templates/nyec/images/small_nav_back_t.png") repeat-x scroll 0 0 transparent;
+				clear:both;
+				width:490px;
+				display:block;
+				margin-top:18px;
+				margin-left:0;
+				float:left;
+				padding-left:0px;
+				margin-left:0px;
+				float:right;
+			}
+				#mini-nav li {
+					display:block;
+					float:left;
+					padding:5px 8px;
+				}
+					#mini-nav li a {
+					    color: #AC936F;
+	    				font-size: 12px;
+		    			text-decoration: none;
+					}
+	nav#main-nav {
+		background: url("/templates/nyec/images/nav_back_t.png") repeat-x scroll 0 0 transparent;
+		clear: both;
+		font-size: 24px;
+		height: 50px;
+		margin:5px 0 0px;
+		overflow: hidden;
+		padding: 0;
+		text-transform: uppercase;
+		width: auto;
+		font-size:24px;
+		margin:0 10px;
+	}
+		#main-nav table {
+			border-collapse:collapse;
+			text-align: center;
+			width: 100%;
+		}
+			#main-nav td {
+				
+			}
+				#main-nav td:hover {
+					background: url("/templates/nyec/images/nav_back_t.png") repeat-x scroll 0 0 transparent;
+				}
+				#main-nav td a {
+					display:block;
+					text-decoration:none;
+					color:#FFF;
+					padding:12px 7px 8px;
+				}
+				#main-nav td a:hover {
+					background: url("/templates/nyec/images/nav_back_t.png") repeat-x scroll 0 0 transparent;
+				}
+			#main-nav .phone {
+				float:right;
+				margin:12px 0px;
+				margin-right:20px;
+				color:#CCC;
+				display:none;
+			}
+					.market_button {
+						cursor:pointer;
+					}
+			
+					.market_button img {
+						margin-bottom:4px;
+					}
+					#market_button ul {
+						background-color:#000;
+						z-index:1;
+						position:absolute;
+						border-top:none;
+						display:none;
+						margin-left:0px;
+						marign-top:1px;
+						width:180px;
+					}
+						#market_button ul li {
+							float:none;
+							color:#FFF;
+						}
+							#market_button ul li a {
+								font-size:14px;
+								color:#FFF;
+								text-align:left;
+								padding:0;
+								display:block;
+								padding:5px 20px;
+								
+							}
+							#market_button ul li a:hover {
+								background-color:#222;
+							}
+			
+			
+			
+			
+			
+		
+	#page {
+		position:relative;			
+		/*background-color:#fff;*/
+		/*background: url("/templates/nyec/images/main_back_t.png") repeat scroll 0 0 transparent;*/
+	}
+    	#content {
+			padding:0 10px;
+		}
+			#breadcrumb {
+				padding:10px 0px;
+				color:#fff;
+			}
+			#breadcrumb a {
+				color:#ccc;
+			}
+			#sidebar {
+				width:320px;
+				/*background: url("/templates/nyec/images/main_back_t.png") repeat scroll 0 0 transparent;*/
+				float:right;
+			}
+				#sidebar > div {
+					padding:10px;
+				}
+			
+	footer {
+		padding:20px;
+		color:#FFF;
+	}
+		footer a {
+			color:#CCC;
+		}
+
+
+
+/* TWEAKS CRAVE INC PAGES TO MAKE IT LOOK RIGHT */
+.pagination-showing {
+	color:#FFF;
+}
+#event-listings {
+	margin-left: 6px;
+	padding: 7px;
+	background: url("/templates/nyec/images/main_back_t.png") repeat scroll 0 0 transparent;
+}
+#profile-content {
+	background-color:#000;
+	overflow:hidden;
+	/*padding:8px;*/
+}
+#profile-content #side-content {
+	color:#fff;
+	background-color:#000;
+	padding:10px;
+}
+	#profile-content #side-content a {
+		color:#ccc;
+	}
+/*html #quick_jump ul, html #quick_jump li {
+	border-color:#000;
+}*/
+html #inverse-box {
+	background-color:#444;
+}
+
+html #left-nav .picker h4 {
+	background-color:#504E5F;
+	color:#FFF;
+}
+html #left-nav .picker ul li a {
+	background-color:#DADADB;
+}
+html #left-nav .picker ul li a:hover {
+	background-color:#FFF;
+}
+html #left-nav {
+	padding:3px;
+	width: 174px;
+	background-color:#BEC6CE;
+}
+
+html #left-content {
+	background-color:#fff;
+	width:640px;
+	padding:10px;
+	margin-right:0px;
+}
+html .qj_to {
+	width:480px;
+}
+.back_to_top {
+	text-decoration:none;
+}
+.back_to_top:hover {
+	color:#666;
+}
+html .ticket-description {
+	width:315px;
+}
+
+/* Hack for the dark sidebar */
+	html #side-content h3 {
+		color:#ccc;
+	}
+	html .padded-section {
+		background-color:#1f1f1f;
+	}
+		html .padded-section li.option{
+			background-color:#000;
+		}
+			html .padded-section li.option a {
+				color:#FFF;
+			}
+			html .padded-section li.option:hover {
+				background-color:#111;
+			}
+			
+
+
+
+html #left-nav #search_box input {
+	width:130px;
+	margin-right:2px;
+}
+
+html #search_button {
+	border: 1px solid #504E5F;
+	padding: 0px 7px;
+	height: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	background-color:#504E5F;
+	color: #fff;
+
+}
+html #search_button:hover {
+	background-color:transparent;	
+	color:#504E5F;
+}
+
+/* Blog Stuff*/
+html .blog-mini-post {
+	background-color:#fff;
+	margin-bottom:20px;
+	padding:20px 10px 10px;
+}
+html .blog-post {
+	margin-right: 10px;
+	padding: 10px;
+	background-color:#fff;
+}
+html .blog-post-footer {
+	background-color:#fff;
+	padding:10px 20px;
+	margin-right:10px;
+}
+html .blog-post-tags {
+	margin-bottom: 0px;
+}
+.subcontent {
+	background: url("/templates/nyec/images/trans75.png") repeat scroll 0 0 transparent;
+	padding:10px;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+html .subcontent-faq, .subcontent-track {
+	padding:10px 20px;
+}
+/* Photos Stuff */
+.paginate a, .photo_nav a{
+	/*color:#ccc;*/
+}
+html #photo-album-container {
+	padding:0px;
+	
+	background: url("/templates/nyec/images/trans75.png") repeat scroll 0 0 transparent;
+}
+html #album-grid {
+	padding:4px	
+}
+.paginate a {
+	color:#ccc;
+	margin-top:15px;
+}
+
+.open-bar > div, .openbar {
+	color:#702966;
+}
+
+
+/* CODE FOR NYE2 PROFILE LAYOUT */
+.nye2 {
+	overflow:hidden;
+	padding:10px;
+	background-color:#fff;
+}
+
+
+html a.buy-button {
+	background-color:#702966;
+}
+html a.buy-button:hover {
+	background-color:#504E5F;
+}
+html .ticket-header {
+	background-color:#504E5F;
+	color:#fff;
+}

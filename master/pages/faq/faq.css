@@ -1,0 +1,60 @@
+
+	#main h1 {
+		font-size:32px;
+		text-transform: uppercase;
+	}
+
+h2 {
+	border-bottom: 1px solid #555;
+	font-size:24px;
+	font-weight:lighter;
+	padding:10px 0;
+}
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+h2 + h3 {
+	padding-top:20px;
+}
+
+.faq {
+	padding: 10px 0;
+}
+	.dark .faq a {
+		color:#999;
+	}
+	.question {
+		padding: 10px 10px 10px 0;
+		text-decoration:underline;
+		width: 300px;
+	}
+	.answer {
+	}
+
+.quick-jumps {
+	padding:10px 0;
+	
+	border-bottom: 1px solid #ccc;
+}
+.dark .quick-jumps {
+	border-bottom-color: #333;
+}
+	.dark .quick-jumps a {
+		color:#fff;
+		line-height:20px;
+	}
+	.qj-title {
+		font-size:16px;
+		padding-bottom:10px;
+	}
+	.qj-title a {
+		color: #666;
+	}
+	.dark .qj-title a {
+		color: #fff;
+	}
+	.quick-jumps ul li {
+		
+	}
