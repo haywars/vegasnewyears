@@ -1,7 +1,7 @@
 <?
 
 $includes[] = 'lib/class/class.eventListing.php';
-$ct_promoter_website_id = 7804; // newyearseve.com
+$ct_promoter_website_id = 8241; // newyearseve.com
 $price_ranges = array(
 	'All' => '',
 	'$75 and Under' => 'under75',

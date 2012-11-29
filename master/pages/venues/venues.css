@@ -327,7 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4535', end
 }
 
 .venues-listing-photo:hover {background: #CC0018;}
-.venues-listing-photo img {border:#333 solid 1px;}
+.venues-listing-photo img {border:#333 solid 1px; width:100%;}
 .venues-listing-photo:hover img {border-color:#8e0011;}
 venues-listing-row {padding-bottom:5px;}
 .venues-listing-col-3 {width:302px;}
